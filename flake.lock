@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "glove80-zmk": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1705609550,
+        "narHash": "sha256-xCIbPQnE7x7U/ZTHbaJqnYzdYMq3wNCUrnfv79/geGo=",
+        "owner": "moergo-sc",
+        "repo": "zmk",
+        "rev": "3111d4200d87662097dd67061174689c5a1625eb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "moergo-sc",
+        "repo": "zmk",
+        "rev": "3111d4200d87662097dd67061174689c5a1625eb",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1736701207,
+        "narHash": "sha256-jG/+MvjVY7SlTakzZ2fJ5dC3V1PrKKrUEOEE30jrOKA=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "ed4a395ea001367c1f13d34b1e01aa10290f67d6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "glove80-zmk": "glove80-zmk",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
